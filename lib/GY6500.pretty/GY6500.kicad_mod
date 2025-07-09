@@ -1,0 +1,49 @@
+(module GY-9250_Carrier (layer F.Cu) (tedit 60000000)
+  (descr "Carrier board footprint for GY-9250/GY-6500 IMU Module 15.5x25.9mm with 10-pin single row")
+  (tags "IMU MPU9250 carrier")
+  (fp_text reference REF** (at 0 -14) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value GY-9250_Carrier (at 0 14) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  
+  # Module outline (where the board will sit)
+  (fp_line (start -7.75 -12.95) (end 7.75 -12.95) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.75 -12.95) (end 7.75 12.95) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.75 12.95) (end -7.75 12.95) (layer F.SilkS) (width 0.15))
+  (fp_line (start -7.75 12.95) (end -7.75 -12.95) (layer F.SilkS) (width 0.15))
+  
+  # Single row of 10 pins on left side
+  # Standard 2.54mm (0.1") spacing
+  # Centered vertically: 9 spaces * 2.54mm = 22.86mm total span
+  # So first pin at -11.43mm from center
+  
+  (pad 1 thru_hole rect (at -7.75 -11.43) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -7.75 -8.89) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at -7.75 -6.35) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 4 thru_hole circle (at -7.75 -3.81) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 5 thru_hole circle (at -7.75 -1.27) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 6 thru_hole circle (at -7.75 1.27) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 7 thru_hole circle (at -7.75 3.81) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 8 thru_hole circle (at -7.75 6.35) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 9 thru_hole circle (at -7.75 8.89) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  (pad 10 thru_hole circle (at -7.75 11.43) (size 1.7 1.7) (drill 1.0) (layers *.Cu *.Mask))
+  
+  # Pin 1 marker
+  (fp_text user "1" (at -5.5 -11.43) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  
+  # Courtyard (assembly clearance)
+  (fp_line (start -9 -13.5) (end 8.5 -13.5) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 8.5 -13.5) (end 8.5 13.5) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 8.5 13.5) (end -9 13.5) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -9 13.5) (end -9 -13.5) (layer F.CrtYd) (width 0.05))
+  
+  # Keep-out zone (where components shouldn't be placed)
+  (fp_line (start -6.5 -11.5) (end 6.5 -11.5) (layer Dwgs.User) (width 0.1))
+  (fp_line (start 6.5 -11.5) (end 6.5 11.5) (layer Dwgs.User) (width 0.1))
+  (fp_line (start 6.5 11.5) (end -6.5 11.5) (layer Dwgs.User) (width 0.1))
+  (fp_line (start -6.5 11.5) (end -6.5 -11.5) (layer Dwgs.User) (width 0.1))
+)
