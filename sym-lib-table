@@ -12,4 +12,7 @@
   (lib (name "YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout")(type "Legacy")(uri "${KIPRJMOD}/lib/Kicad-STM32/Symbols/YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout.lib")(options "")(descr ""))
   (lib (name "YAAJ_WeAct_BlackPill_Part_Like")(type "Legacy")(uri "${KIPRJMOD}/lib/Kicad-STM32/Symbols/YAAJ_WeAct_BlackPill_Part_Like.lib")(options "")(descr ""))
   (lib (name "gy6500")(type "KiCad")(uri "${KIPRJMOD}/lib/gy6500.kicad_sym")(options "")(descr ""))
+  (lib (name "bmp180")(type "KiCad")(uri "${KIPRJMOD}/lib/bmp180.kicad_sym")(options "")(descr ""))
+  (lib (name "mp1584")(type "KiCad")(uri "${KIPRJMOD}/lib/mp1584.kicad_sym")(options "")(descr ""))
+  (lib (name "JST_6pin")(type "KiCad")(uri "${KIPRJMOD}/lib/JST_6pin.kicad_sym")(options "")(descr ""))
 )

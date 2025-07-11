@@ -3,4 +3,6 @@
   (lib (name "STM32_Footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/Kicad-STM32/Footprints")(options "")(descr ""))
   (lib (name "Wemos_D1_Mini")(type "KiCad")(uri "${KIPRJMOD}/lib/d1_mini_kicad/library/wemos_d1_mini.pretty")(options "")(descr ""))
   (lib (name "GY6500")(type "KiCad")(uri "${KIPRJMOD}/lib/GY6500.pretty")(options "")(descr ""))
+  (lib (name "BMP180")(type "KiCad")(uri "${KIPRJMOD}/lib/BMP180.pretty")(options "")(descr ""))
+  (lib (name "MP1584")(type "KiCad")(uri "${KIPRJMOD}/lib/MP1584.pretty")(options "")(descr ""))
 )
