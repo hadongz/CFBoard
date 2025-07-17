@@ -3396,12 +3396,6 @@
 		)
 	)
 	(junction
-		(at 205.74 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "044a8890-0983-4095-a1ed-1f6138992d19")
-	)
-	(junction
 		(at 205.74 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3478,6 +3472,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c83b4bed-f314-47d8-8be6-3416de1602e4")
+	)
+	(junction
+		(at 205.74 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd139526-1a91-4029-abb9-45729ada94fe")
 	)
 	(junction
 		(at 205.74 116.84)
@@ -3657,16 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 109.22) (xy 205.74 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bf14c3a-8d43-40f6-9b8a-26b338ed0824")
-	)
-	(wire
-		(pts
 			(xy 187.96 101.6) (xy 187.96 68.58)
 		)
 		(stroke
@@ -3744,6 +3734,16 @@
 			(type default)
 		)
 		(uuid "27a4b9e0-63bc-4ecc-9cb2-7b0da56da1bc")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d664f3-e2c1-407b-9567-9937e7a1bc8d")
 	)
 	(wire
 		(pts
@@ -4117,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 109.22) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8646255b-5342-4362-8387-b2fea6ea510f")
+	)
+	(wire
+		(pts
 			(xy 118.11 116.84) (xy 118.11 85.09)
 		)
 		(stroke
@@ -4124,16 +4134,6 @@
 			(type default)
 		)
 		(uuid "888714ed-6706-4c3b-9354-be3a37129fa1")
-	)
-	(wire
-		(pts
-			(xy 142.24 109.22) (xy 179.07 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb442b4-6a2f-4a00-949a-c06323be1c30")
 	)
 	(wire
 		(pts
@@ -4886,7 +4886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 152.0952 83.82 0)
 			(effects
 				(font
@@ -4930,7 +4930,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 182.88 109.22 180)
+		(at 182.88 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5715,7 +5715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 152.0952 134.62 0)
 			(effects
 				(font
@@ -5785,7 +5785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "JST_XH_6Pin_Horizontal:JST_XH_6Pin_Horizontal"
 			(at 127.762 56.388 0)
 			(effects
 				(font

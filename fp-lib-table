@@ -5,4 +5,5 @@
   (lib (name "GY6500")(type "KiCad")(uri "${KIPRJMOD}/lib/GY6500.pretty")(options "")(descr ""))
   (lib (name "BMP180")(type "KiCad")(uri "${KIPRJMOD}/lib/BMP180.pretty")(options "")(descr ""))
   (lib (name "MP1584")(type "KiCad")(uri "${KIPRJMOD}/lib/MP1584.pretty")(options "")(descr ""))
+  (lib (name "JST_XH_6Pin_Horizontal")(type "KiCad")(uri "${KIPRJMOD}/lib/JST_XH_6Pin_Horizontal.pretty")(options "")(descr ""))
 )
