@@ -61,7 +61,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -8.89 6.35 0)
 				(length 5.08)
 				(name "VIN"
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -8.89 3.81 0)
 				(length 5.08)
 				(name "GND"
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -8.89 1.27 0)
 				(length 5.08)
 				(name "Signal_1"
@@ -115,7 +115,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -8.89 -1.27 0)
 				(length 5.08)
 				(name "Signal_2"
@@ -133,7 +133,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -8.89 -3.81 0)
 				(length 5.08)
 				(name "Signal_3"
@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -8.89 -6.35 0)
 				(length 5.08)
 				(name "Signal_4"

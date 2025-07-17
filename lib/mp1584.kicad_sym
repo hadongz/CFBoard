@@ -66,24 +66,6 @@
 			(pin power_in line
 				(at -11.43 2.54 0)
 				(length 5.08)
-				(name "VIN+"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -11.43 -2.54 0)
-				(length 5.08)
 				(name "VIN-"
 					(effects
 						(font
@@ -99,17 +81,35 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 11.43 2.54 180)
+			(pin power_in line
+				(at -11.43 -2.54 0)
 				(length 5.08)
-				(name "VOUT+"
+				(name "VIN+"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "VOUT-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -120,14 +120,14 @@
 			(pin power_out line
 				(at 11.43 -2.54 180)
 				(length 5.08)
-				(name "VOUT-"
+				(name "VOUT+"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
