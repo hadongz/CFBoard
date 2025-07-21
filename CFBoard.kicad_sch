@@ -3723,7 +3723,7 @@
 		(at 151.13 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4202a35-7e41-4e36-9f0f-1c303b531ac9")
+		(uuid "af52ce15-97de-494c-891a-c86bc7a76aea")
 	)
 	(junction
 		(at 133.35 137.16)
@@ -4012,6 +4012,16 @@
 			(type default)
 		)
 		(uuid "09da1b09-35f2-48c9-9560-ce60ae3ae243")
+	)
+	(wire
+		(pts
+			(xy 151.13 76.2) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad8f8f4-6327-4db7-8861-c11041eaefac")
 	)
 	(wire
 		(pts
@@ -4325,16 +4335,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 80.01) (xy 156.21 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c119a61-d828-4613-8d41-d2ce694fd5aa")
-	)
-	(wire
-		(pts
 			(xy 142.24 134.62) (xy 151.13 134.62)
 		)
 		(stroke
@@ -4582,16 +4582,6 @@
 			(type default)
 		)
 		(uuid "888714ed-6706-4c3b-9354-be3a37129fa1")
-	)
-	(wire
-		(pts
-			(xy 156.21 76.2) (xy 151.13 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ce03cd1-a643-4f58-91af-8966f6df4626")
 	)
 	(wire
 		(pts
@@ -4935,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 76.2) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce819f89-56d1-4259-9951-5755fc80e012")
+	)
+	(wire
+		(pts
 			(xy 133.35 85.09) (xy 133.35 137.16)
 		)
 		(stroke
@@ -5035,6 +5035,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f380687e-e222-406c-bf9a-3d2425e43f7c")
+	)
+	(wire
+		(pts
 			(xy 232.41 129.54) (xy 237.49 129.54)
 		)
 		(stroke
@@ -5095,16 +5105,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 142.24 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcdbe7cf-ca1b-42c7-ade1-21f863362991")
-	)
-	(wire
-		(pts
 			(xy 118.11 40.64) (xy 114.3 40.64)
 		)
 		(stroke
@@ -5112,16 +5112,6 @@
 			(type default)
 		)
 		(uuid "fe9ca931-86b7-4e12-bc24-f267539dbe2b")
-	)
-	(wire
-		(pts
-			(xy 156.21 80.01) (xy 156.21 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2c177a-7e7e-4135-a0ec-6a0b596cc8aa")
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
